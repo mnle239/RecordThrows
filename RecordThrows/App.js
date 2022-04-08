@@ -35,7 +35,6 @@ const firebaseConfig = {
   appId: "1:376073823469:web:148a1a7dab3329988ed8e4",
   measurementId: "G-NBY49CK0NX"
 };
-console.log(RECORD_THROWS_API_KEY)
 
 firebase.initializeApp(firebaseConfig)
 const AuthStack = createStackNavigator();
